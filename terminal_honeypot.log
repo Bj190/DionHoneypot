@@ -1,4 +1,17 @@
-2025-03-25 10:16:15,098 Bad Actor Command: dir
-2025-03-25 10:31:50,054 Bad Actor Command: dir
-2025-03-25 10:33:43,437 Bad Actor Command: cd "Project Alpha"
-2025-03-25 10:34:05,369 Bad Actor Command: dir
+2025-03-26 18:23:38,107 Bad Actor Command: dir
+2025-03-26 18:23:38,107 Error: handle_command() missing 1 required positional argument: 'current_user'
+2025-03-26 18:23:51,228 Bad Actor Command: & C:/Users/brynj/Desktop/DionHoneypot/.venv/Scripts/python.exe c:/Users/brynj/Desktop/DionHoneypot/DionPrototype.py
+2025-03-26 18:23:51,229 Error: handle_command() missing 1 required positional argument: 'current_user'
+2025-03-26 18:24:04,452 Bad Actor Command: dir
+2025-03-26 18:24:16,097 Bad Actor Command: cd
+2025-03-26 18:27:10,126 Bad Actor Command: cd
+2025-03-26 18:27:10,127 Error: handle_command() missing 1 required positional argument: 'current_user'
+2025-03-26 18:29:25,955 Bad Actor Command: cd
+2025-03-26 19:28:48,425 Bad Actor Command: cd Desktop
+2025-03-26 19:28:48,425 Error: 'str' object has no attribute 'get'
+2025-03-26 19:29:10,478 Bad Actor Command: Desktop
+2025-03-26 19:30:06,978 Bad Actor Command: ..
+2025-03-26 19:30:12,286 Bad Actor Command: cd
+2025-03-26 19:30:16,621 Bad Actor Command: cd Desktop
+2025-03-26 19:30:16,621 Error: 'str' object has no attribute 'get'
+2025-03-26 19:35:35,813 Bad Actor Command: cd
