@@ -17,7 +17,7 @@ honeypot_handler.setFormatter(logging_format)
 honeypot_logger.addHandler(honeypot_handler)
 
 # Configure Google Generative AI API
-key = "AIzaSyDQKqrfjcn9OCmh8tRV0Wx1z49WtXutoTI"
+key = ""
 
 genai.configure(api_key=key)
 model = genai.GenerativeModel('gemini-1.5-pro-latest')
