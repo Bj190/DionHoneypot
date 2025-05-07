@@ -1,0 +1,135 @@
+2025-04-10 14:15:34,819 Bad Actor Input: b'', Location: ```json
+{
+  "C:\\": ["Program Files", "Users", "Windows"],
+  "C:\\Users": ["mbaker788", "Public", "Default", "All Users"],
+  "C:\\Users\\mbaker788": ["Desktop", "Documents", "Downloads", "AppData", "Favorites", "Music", "Pictures", "Saved Games", "Videos"],
+  "C:\\Users\\mbaker788\\Documents": ["Contracts", "Projects", "Reports", "Training"],
+  "C:\\Users\\mbaker788\\Downloads": ["Contoso Financials Q3.xlsx", "Project_Alpha_Proposal.docx", "Team_Meeting_Minutes.pdf"],
+  "C:\\Users\\mbaker788\\Desktop": ["Project_Timeline.xlsx", "Meeting Notes.txt", "Expense Report.xlsx"],
+  "C:\\Program Files": ["Microsoft Office", "Contoso Internal Apps", "Zoom"],
+  "C:\\Windows": ["System32", "SysWOW64"]
+}
+```
+2025-04-10 14:15:36,656 Bad Actor Input: b'', Location: ```json
+{
+  "C:\\": ["Program Files", "Users", "Windows"],
+  "C:\\Users": ["mbaker788", "Public", "Default", "All Users"],
+  "C:\\Users\\mbaker788": ["Desktop", "Documents", "Downloads", "AppData", "Favorites", "Music", "Pictures", "Saved Games", "Videos"],
+  "C:\\Users\\mbaker788\\Documents": ["Contracts", "Projects", "Reports", "Training"],
+  "C:\\Users\\mbaker788\\Downloads": ["Contoso Financials Q3.xlsx", "Project_Alpha_Proposal.docx", "Team_Meeting_Minutes.pdf"],
+  "C:\\Users\\mbaker788\\Desktop": ["Project_Timeline.xlsx", "Meeting Notes.txt", "Expense Report.xlsx"],
+  "C:\\Program Files": ["Microsoft Office", "Contoso Internal Apps", "Zoom"],
+  "C:\\Windows": ["System32", "SysWOW64"]
+}
+```
+2025-04-10 14:15:38,152 Bad Actor Input: b'', Location: ```json
+{
+  "C:\\": ["Program Files", "Users", "Windows"],
+  "C:\\Users": ["mbaker788", "Public", "Default", "All Users"],
+  "C:\\Users\\mbaker788": ["Desktop", "Documents", "Downloads", "AppData", "Favorites", "Music", "Pictures", "Saved Games", "Videos"],
+  "C:\\Users\\mbaker788\\Documents": ["Contracts", "Projects", "Reports", "Training"],
+  "C:\\Users\\mbaker788\\Downloads": ["Contoso Financials Q3.xlsx", "Project_Alpha_Proposal.docx", "Team_Meeting_Minutes.pdf"],
+  "C:\\Users\\mbaker788\\Desktop": ["Project_Timeline.xlsx", "Meeting Notes.txt", "Expense Report.xlsx"],
+  "C:\\Program Files": ["Microsoft Office", "Contoso Internal Apps", "Zoom"],
+  "C:\\Windows": ["System32", "SysWOW64"]
+}
+```
+2025-04-10 14:28:32,000 Client 127.0.0.1 attempted connection.
+2025-04-10 14:33:08,817 Client 127.0.0.1 attempted connection.
+2025-04-10 14:40:18,628 Client 127.0.0.1 attempted connection.
+2025-04-10 14:40:33,825 Bad Actor Input: b'\r', Location: ```json
+{
+  "C:\\": ["Program Files", "Users", "Windows", "Program Files (x86)", "ProgramData"],
+  "C:\\Users": ["bwhite550", "Public", "Default", "All Users", "Default User"],
+  "C:\\Users\\bwhite550": ["Desktop", "Documents", "Downloads", "Favorites", "Music", "Pictures", "Videos", "Saved Games", "Searches", "OneDrive", "AppData"],
+  "C:\\Users\\bwhite550\\AppData": ["Roaming", "Local", "LocalLow"],
+  "C:\\Users\\bwhite550\\Documents": ["Projects", "Reports", "Training", "Personal"],
+  "C:\\Program Files": ["Microsoft Office", "Google", "Mozilla Firefox", "7-Zip"],
+    "C:\\Users\\bwhite550\\Desktop": ["Project Proposal.docx", "Meeting Notes.txt", "Expense Report.xlsx"],
+    "C:\\Users\\bwhite550\\Downloads":["invoice.pdf", "software_installer.exe"]
+}
+```: 
+2025-04-10 14:40:37,251 Bad Actor Input: b'\r', Location: ```json
+{
+  "C:\\": ["Program Files", "Users", "Windows", "Program Files (x86)", "ProgramData"],
+  "C:\\Users": ["bwhite550", "Public", "Default", "All Users", "Default User"],
+  "C:\\Users\\bwhite550": ["Desktop", "Documents", "Downloads", "Favorites", "Music", "Pictures", "Videos", "Saved Games", "Searches", "OneDrive", "AppData"],
+  "C:\\Users\\bwhite550\\AppData": ["Roaming", "Local", "LocalLow"],
+  "C:\\Users\\bwhite550\\Documents": ["Projects", "Reports", "Training", "Personal"],
+  "C:\\Program Files": ["Microsoft Office", "Google", "Mozilla Firefox", "7-Zip"],
+    "C:\\Users\\bwhite550\\Desktop": ["Project Proposal.docx", "Meeting Notes.txt", "Expense Report.xlsx"],
+    "C:\\Users\\bwhite550\\Downloads":["invoice.pdf", "software_installer.exe"]
+}
+```: 
+2025-04-10 14:45:34,242 Client 127.0.0.1 attempted connection.
+2025-04-10 14:47:51,145 Client 127.0.0.1 attempted connection.
+2025-04-10 14:51:00,911 Client 127.0.0.1 attempted connection.
+2025-04-10 14:53:39,127 Client 127.0.0.1 attempted connection.
+2025-04-10 14:55:44,500 Client 127.0.0.1 attempted connection.
+2025-04-10 14:55:53,118 Bad Actor Input: b'\r', Location: ```json
+{
+  "C:\\": ["Program Files", "Users", "Windows", "Program Files (x86)", "ProgramData"],
+  "C:\\Users": ["rjackson345", "Public", "Default", "All Users", "Default User"],
+  "C:\\Users\\rjackson345": ["Desktop", "Documents", "Downloads", "Favorites", "Music", "Pictures", "Videos", "AppData", "OneDrive", "Saved Games", "Searches"],
+  "C:\\Users\\rjackson345\\Documents": ["Projects", "Reports", "Training", "Personal"],
+  "C:\\Users\\rjackson345\\Downloads":["New folder"]
+}
+```: 
+2025-04-10 14:58:06,137 Client 127.0.0.1 attempted connection.
+2025-04-10 14:58:13,409 Bad Actor Input: b'\r', Location: ```json
+{
+  "C:\\": ["Program Files", "Users", "Windows", "ProgramData"],
+  "C:\\Users": ["swilson329", "Public", "Default", "All Users"],
+  "C:\\Users\\swilson329": ["Desktop", "Documents", "Downloads", "Favorites", "Music", "Pictures", "Videos", "AppData", "OneDrive - ExampleCorp", "Saved Games"],
+  "C:\\Users\\swilson329\\Documents": ["Projects", "Reports", "Budget 2024", "Meeting Notes"],
+  "C:\\Users\\swilson329\\Downloads": ["Installers", "New Software Documentation.pdf"],
+  "C:\\Users\\swilson329\\Desktop": ["Project Alpha.xlsx", "Meeting Agenda.docx", "Expense Report.xlsx"],
+  "C:\\Program Files": ["ExampleCorp Software", "Microsoft Office", "Common Files"],
+  "C:\\Windows": ["System32", "SysWOW64"]
+}
+```: 
+2025-04-10 15:04:04,842 Client 127.0.0.1 attempted connection.
+2025-04-10 15:05:42,636 Client 127.0.0.1 attempted connection.
+2025-04-10 15:05:50,692 Bad Actor Input: b'\r', Location: ```json
+{
+  "C:\\": ["Program Files", "Users", "Windows"],
+  "C:\\Users": ["iwilson368", "Public", "Default"],
+  "C:\\Users\\iwilson368": ["Desktop", "Documents", "Downloads", "AppData", "Favorites", "Music", "Pictures", "Videos", "Saved Games", "Searches"],
+  "C:\\Users\\iwilson368\\Documents": ["Corporate Projects", "Personal", "Training Materials", "Meeting Notes"],
+  "C:\\Users\\iwilson368\\Downloads": ["Contoso Invoices.pdf", "Project Proposal.docx", "Team Photos.zip"],
+  "C:\\Users\\iwilson368\\Desktop": ["Project Alpha.xlsx", "Meeting Agenda.txt", "Expense Report.docx"],
+  "C:\\Program Files": ["Microsoft Office", "Contoso Internal Apps", "Zoom", "Adobe Acrobat"],
+  "C:\\Windows": ["System32", "SysWOW64"]
+}
+```: 
+2025-04-10 15:08:29,743 Client 127.0.0.1 attempted connection.
+2025-04-10 15:08:35,561 Bad Actor Input: b'\r', Location: ```json
+{
+  "C:\\": ["Program Files", "Users", "Windows"],
+  "C:\\Users": ["iwilson368", "Public", "Default"],
+  "C:\\Users\\iwilson368": ["Desktop", "Documents", "Downloads", "AppData", "Favorites", "Music", "Pictures", "Videos", "Saved Games", "Searches"],
+  "C:\\Users\\iwilson368\\Documents": ["Corporate Projects", "Personal", "Training Materials", "Meeting Notes"],
+  "C:\\Users\\iwilson368\\Downloads": ["Contoso Invoices.pdf", "Project Proposal.docx", "Team Photos.zip"],
+  "C:\\Users\\iwilson368\\Desktop": ["Project Alpha.xlsx", "Meeting Agenda.txt", "Expense Report.docx"],
+  "C:\\Program Files": ["Microsoft Office", "Contoso Internal Apps", "Zoom", "Adobe Acrobat"],
+  "C:\\Windows": ["System32", "SysWOW64"]
+}
+```: 
+2025-04-10 15:11:15,722 Client 127.0.0.1 attempted connection.
+2025-04-10 15:12:56,659 Bad Actor Input: b'', Location: None: 
+2025-04-10 15:13:07,691 Client 127.0.0.1 attempted connection.
+2025-04-10 15:23:16,439 Bad Actor Input: b'', Location: None: 
+2025-04-10 15:24:07,679 Client 127.0.0.1 attempted connection.
+2025-04-10 15:28:53,773 Client 127.0.0.1 attempted connection.
+2025-04-10 15:37:35,822 Client 127.0.0.1 attempted connection.
+2025-04-10 15:39:45,377 Bad Actor Input: b'tbrgfds\r', Location: None: tbrgfds
+2025-04-10 15:40:02,872 Client 127.0.0.1 attempted connection.
+2025-04-10 15:42:51,051 Bad Actor Input: b'\x03\x03hytrgfe\r', Location: None: hytrgfe
+2025-04-10 15:43:18,395 Client 127.0.0.1 attempted connection.
+2025-04-10 15:45:04,522 Bad Actor Input: b'gtrfsd\r', Location: None: gtrfsd
+2025-04-10 15:45:26,534 Client 127.0.0.1 attempted connection.
+2025-04-10 15:46:14,148 Bad Actor Input: b'hgtrsdf\r', Location: None: hgtrsdf
+2025-04-10 15:46:33,581 Client 127.0.0.1 attempted connection.
+2025-04-10 15:46:35,583 Bad Actor Input: b'\r', Location: None: 
+2025-04-10 15:52:23,184 Client 127.0.0.1 attempted connection.
+2025-04-10 15:53:53,712 Client 127.0.0.1 attempted connection.

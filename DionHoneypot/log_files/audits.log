@@ -1,0 +1,965 @@
+2025-04-15 13:12:12,460 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-15 13:12:12,460 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-15 13:12:17,503 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-15 13:12:17,503 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-15 13:12:22,803 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-15 13:12:22,804 - paramiko.transport - INFO - Auth granted (password).
+2025-04-15 13:12:22,810 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-15 13:12:22,811 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-15 13:12:22,812 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-15 13:12:22,812 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-15 13:12:22,813 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-15 13:13:45,289 - root - INFO - Command receied (127.0.0.1): cd
+2025-04-15 13:14:02,657 - honeypotLogger - INFO - Bad Actor Input: b'\x1b[C\x1b[C\x1b[D\x1b[A\x1b[A\x1b[C\x1b[C\x1b[B\x1b[B\x1b[C\x1b[C\x1b[A\x1b[D\x7f\x7f\x7f\x7f\r', Location: 127.0.0.1: [C[C[D[A[A[C[C[B[B[C[C[A[D
+2025-04-15 13:14:03,452 - honeypotLogger - INFO - Bad Actor Input: b'\x1b[C\x1b[C\x1b[D\x1b[A\x1b[A\x1b[C\x1b[C\x1b[B\x1b[B\x1b[C\x1b[C\x1b[A\x1b[D\x7f\x7f\x7f\x7f\r\r', Location: 127.0.0.1: [C[C[D[A[A[C[C[B[B[C[C[A[D
+2025-04-15 13:14:04,301 - honeypotLogger - INFO - Bad Actor Input: b'\x1b[C\x1b[C\x1b[D\x1b[A\x1b[A\x1b[C\x1b[C\x1b[B\x1b[B\x1b[C\x1b[C\x1b[A\x1b[D\x7f\x7f\x7f\x7f\r\r\r', Location: 127.0.0.1: [C[C[D[A[A[C[C[B[B[C[C[A[D
+2025-04-15 13:14:05,201 - honeypotLogger - INFO - Bad Actor Input: b'\x1b[C\x1b[C\x1b[D\x1b[A\x1b[A\x1b[C\x1b[C\x1b[B\x1b[B\x1b[C\x1b[C\x1b[A\x1b[D\x7f\x7f\x7f\x7f\r\r\r\r', Location: 127.0.0.1: [C[C[D[A[A[C[C[B[B[C[C[A[D
+2025-04-15 13:14:05,308 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-15 13:18:34,324 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-15 13:18:34,328 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-15 13:18:34,337 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-15 13:18:34,337 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-15 13:18:35,216 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-15 13:18:35,217 - paramiko.transport - INFO - Auth granted (password).
+2025-04-15 13:18:35,221 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-15 13:18:35,221 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-15 13:18:35,222 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-15 13:18:35,222 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-15 13:18:35,222 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-15 13:18:47,617 - root - INFO - Command receied (127.0.0.1): cd
+2025-04-15 13:28:03,770 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-15 13:28:03,770 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-15 13:28:03,786 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-15 13:28:03,786 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-15 13:28:04,894 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-15 13:28:04,894 - paramiko.transport - INFO - Auth granted (password).
+2025-04-15 13:28:04,894 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-15 13:28:04,894 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-15 13:28:04,894 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-15 13:28:04,894 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-15 13:28:04,894 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-15 13:28:11,282 - root - INFO - Command receied (127.0.0.1): cd
+2025-04-15 13:28:24,339 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-15 13:36:20,756 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-15 13:36:20,760 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-15 13:36:20,767 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-15 13:36:20,768 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-15 13:36:21,986 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-15 13:36:21,986 - paramiko.transport - INFO - Auth granted (password).
+2025-04-15 13:36:21,991 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-15 13:36:21,992 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-15 13:36:21,992 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-15 13:36:21,993 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-15 13:36:21,993 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-15 13:36:27,833 - root - INFO - Command receied (127.0.0.1): cd
+2025-04-15 13:36:27,835 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-15 13:40:31,882 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-15 13:40:31,886 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-15 13:40:31,896 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-15 13:40:31,896 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-15 13:40:33,090 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-15 13:40:33,091 - paramiko.transport - INFO - Auth granted (password).
+2025-04-15 13:40:33,096 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-15 13:40:33,097 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-15 13:40:33,098 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-15 13:40:33,098 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-15 13:40:33,099 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-15 13:41:10,354 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-15 13:47:36,093 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-15 13:47:36,097 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-15 13:47:36,105 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-15 13:47:36,105 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-15 13:47:37,460 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-15 13:47:37,461 - paramiko.transport - INFO - Auth granted (password).
+2025-04-15 13:47:37,463 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-15 13:47:37,463 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-15 13:47:37,464 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-15 13:47:37,464 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-15 13:47:37,465 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-15 13:47:44,107 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-15 13:50:16,888 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-15 13:50:16,888 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-15 13:50:16,898 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-15 13:50:16,898 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-15 13:50:18,756 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-15 13:50:18,757 - paramiko.transport - INFO - Auth granted (password).
+2025-04-15 13:50:18,762 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-15 13:50:18,763 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-15 13:50:18,763 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-15 13:50:18,764 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-15 13:50:18,764 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-15 13:50:33,876 - root - INFO - Command receied (127.0.0.1): lsddd
+2025-04-15 13:50:33,879 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-15 13:52:38,680 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-15 13:52:38,684 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-15 13:52:38,692 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-15 13:52:38,692 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-15 13:52:41,381 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-15 13:52:41,382 - paramiko.transport - INFO - Auth granted (password).
+2025-04-15 13:52:41,388 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-15 13:52:41,389 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-15 13:52:41,389 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-15 13:52:41,390 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-15 13:52:41,391 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-15 13:52:49,989 - root - INFO - Command receied (127.0.0.1): ls
+2025-04-15 13:52:49,992 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-16 13:14:49,550 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-16 13:14:49,554 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-16 13:14:49,564 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-16 13:14:49,565 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-16 13:14:51,787 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-16 13:14:51,787 - paramiko.transport - INFO - Auth granted (password).
+2025-04-16 13:14:51,787 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-16 13:14:51,787 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-16 13:14:51,787 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-16 13:14:51,787 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-16 13:14:51,787 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-16 13:14:59,534 - root - INFO - Command receied (127.0.0.1): cd
+2025-04-16 13:14:59,534 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-16 13:24:55,157 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-16 13:24:55,161 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-16 13:24:55,169 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-16 13:24:55,169 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-16 13:24:57,004 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-16 13:24:57,005 - paramiko.transport - INFO - Auth granted (password).
+2025-04-16 13:24:57,006 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-16 13:24:57,007 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-16 13:24:57,007 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-16 13:24:57,008 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-16 13:24:57,008 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-16 13:25:03,393 - root - INFO - Command receied (127.0.0.1): cd
+2025-04-16 13:25:03,393 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-16 13:26:07,620 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-16 13:26:07,620 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-16 13:26:07,630 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-16 13:26:07,630 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-16 13:26:10,525 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-16 13:26:10,525 - paramiko.transport - INFO - Auth granted (password).
+2025-04-16 13:26:10,531 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-16 13:26:10,531 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-16 13:26:10,532 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-16 13:26:10,532 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-16 13:26:10,533 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-16 13:26:16,933 - root - INFO - Command receied (127.0.0.1): cd
+2025-04-16 13:26:36,543 - root - INFO - Command receied (127.0.0.1): ls
+2025-04-16 13:26:47,309 - root - INFO - Command receied (127.0.0.1): who am i
+2025-04-16 13:26:49,642 - root - INFO - Command receied (127.0.0.1): whoami
+2025-04-16 13:41:30,086 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-16 13:41:30,090 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-16 13:41:30,097 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-16 13:41:30,097 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-16 13:41:31,534 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-16 13:41:31,534 - paramiko.transport - INFO - Auth granted (password).
+2025-04-16 13:41:31,539 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-16 13:41:31,540 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-16 13:41:31,541 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-16 13:41:31,541 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-16 13:41:31,542 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-16 13:41:39,338 - root - INFO - Command receied (127.0.0.1): cd
+2025-04-16 13:41:44,121 - root - INFO - Command receied (127.0.0.1): ls
+2025-04-16 13:42:14,240 - root - INFO - Command receied (127.0.0.1): mkdir
+2025-04-16 13:56:34,316 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-16 13:56:34,320 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-16 13:56:34,328 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-16 13:56:34,328 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-16 13:56:35,773 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-16 13:56:35,774 - paramiko.transport - INFO - Auth granted (password).
+2025-04-16 13:56:35,776 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-16 13:56:35,777 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-16 13:56:35,777 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-16 13:56:35,777 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-16 13:56:35,778 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-16 13:56:53,084 - root - INFO - Command receied (127.0.0.1): dfvvvv
+2025-04-16 13:56:55,555 - root - INFO - Command receied (127.0.0.1): 
+2025-04-16 13:57:25,183 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-16 14:01:08,336 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-16 14:01:08,340 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-16 14:01:08,348 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-16 14:01:08,349 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-16 14:01:09,595 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-16 14:01:09,595 - paramiko.transport - INFO - Auth granted (password).
+2025-04-16 14:01:09,595 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-16 14:01:09,595 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-16 14:01:09,595 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-16 14:01:09,595 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-16 14:01:09,595 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-16 14:01:25,629 - root - INFO - Command receied (127.0.0.1): cd Users
+2025-04-16 14:01:36,900 - root - INFO - Command receied (127.0.0.1): cd users
+2025-04-16 14:01:42,020 - root - INFO - Command receied (127.0.0.1): cd user
+2025-04-16 14:01:47,934 - root - INFO - Command receied (127.0.0.1): ls
+2025-04-16 14:01:55,148 - root - INFO - Command receied (127.0.0.1): cd home
+2025-04-16 14:02:18,001 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-16 14:02:18,005 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-16 14:02:18,012 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-16 14:02:18,013 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-16 14:02:19,037 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-16 14:02:19,038 - paramiko.transport - INFO - Auth granted (password).
+2025-04-16 14:02:19,040 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-16 14:02:19,041 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-16 14:02:19,041 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-16 14:02:19,042 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-16 14:02:19,042 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-16 14:02:24,724 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-16 14:32:30,839 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-16 14:32:30,855 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-16 14:32:30,855 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-16 14:32:30,855 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-16 14:32:32,766 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-16 14:32:32,766 - paramiko.transport - INFO - Auth granted (password).
+2025-04-16 14:32:32,768 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-16 14:32:32,768 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-16 14:32:32,769 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-16 14:32:32,769 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-16 14:32:32,770 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-16 14:34:35,892 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-16 14:34:35,892 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-16 14:34:35,908 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-16 14:34:35,908 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-16 14:34:36,856 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-16 14:34:36,856 - paramiko.transport - INFO - Auth granted (password).
+2025-04-16 14:34:36,856 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-16 14:34:36,856 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-16 14:34:36,856 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-16 14:34:36,856 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-16 14:34:36,856 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-16 14:34:56,511 - root - INFO - Command receied (127.0.0.1): whoami
+2025-04-16 14:40:01,769 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-16 14:40:01,774 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-16 14:40:01,781 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-16 14:40:01,782 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-16 14:40:02,701 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-16 14:40:02,702 - paramiko.transport - INFO - Auth granted (password).
+2025-04-16 14:40:02,707 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-16 14:40:02,708 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-16 14:40:02,709 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-16 14:40:02,709 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-16 14:40:02,710 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-16 14:40:10,631 - root - INFO - Command receied (127.0.0.1): cd
+2025-04-16 14:40:17,755 - root - INFO - Command receied (127.0.0.1): whoami
+2025-04-16 14:41:13,141 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:02:23,463 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:02:24,243 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:02:32,279 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:02:32,279 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:02:34,569 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:02:34,569 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:02:34,573 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:02:34,573 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:02:34,573 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:02:34,573 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:02:34,573 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:15:23,380 - root - INFO - Command receied (127.0.0.1): ls
+2025-04-29 17:16:33,370 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:16:48,890 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:16:48,901 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:16:48,937 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:16:48,937 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:16:50,191 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:16:50,192 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:16:50,195 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:16:50,200 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:16:50,200 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:16:50,200 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:16:50,200 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:16:59,425 - root - INFO - Command receied (127.0.0.1): pwd
+2025-04-29 17:17:16,318 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:17:33,260 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:17:33,263 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:17:33,280 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:17:33,280 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:17:34,030 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:17:34,031 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:17:34,035 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:17:34,036 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:17:34,036 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:17:34,036 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:17:34,036 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:17:40,830 - root - INFO - Command receied (127.0.0.1): whoami
+2025-04-29 17:18:35,898 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:18:51,494 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:18:51,496 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:18:51,502 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:18:51,502 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:18:52,295 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:18:52,296 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:18:52,300 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:18:52,301 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:18:52,302 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:18:52,302 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:18:52,303 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:19:05,977 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:19:16,708 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:19:16,709 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:19:16,719 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:19:16,720 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:19:17,460 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:19:17,461 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:19:17,464 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:19:17,465 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:19:17,465 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:19:17,465 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:19:17,466 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:19:32,238 - root - INFO - Command receied (127.0.0.1): cat/etc/passwd
+2025-04-29 17:20:01,339 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:20:48,280 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:20:48,281 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:20:48,284 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:20:48,284 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:20:49,089 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:20:49,089 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:20:49,089 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:20:49,089 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:20:49,089 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:20:49,089 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:20:49,089 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:20:55,804 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:20:55,817 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:21:33,246 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:21:33,247 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:21:33,249 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:21:33,249 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:21:34,759 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:21:34,759 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:21:34,766 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:21:34,767 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:21:34,767 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:21:34,767 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:21:34,768 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:22:49,412 - root - INFO - Command receied (127.0.0.1): ifconfig
+2025-04-29 17:24:13,539 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:24:43,218 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:24:43,229 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:24:43,248 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:24:43,248 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:24:44,309 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:24:44,309 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:24:44,318 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:24:44,318 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:24:44,318 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:24:44,318 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:24:44,318 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:25:05,758 - root - INFO - Command receied (127.0.0.1): uname -a
+2025-04-29 17:25:33,731 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:25:33,731 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:25:36,638 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:25:36,638 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:25:36,641 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:25:36,641 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:25:37,851 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:25:37,851 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:25:37,858 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:25:37,860 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:25:37,860 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:25:37,860 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:25:37,860 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:25:55,754 - root - INFO - Command receied (127.0.0.1): cd /var/log
+2025-04-29 17:26:17,380 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:26:17,380 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:26:20,017 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:26:20,018 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:26:20,018 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:26:20,018 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:26:21,099 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:26:21,099 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:26:21,099 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:26:21,108 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:26:21,108 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:26:21,108 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:26:21,108 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:26:42,907 - root - INFO - Command receied (127.0.0.1): tail -n 10 /var/log/syslog
+2025-04-29 17:27:17,338 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:27:17,338 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:27:33,910 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:27:33,911 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:27:33,916 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:27:33,916 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:27:34,859 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:27:34,859 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:27:34,864 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:27:34,865 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:27:34,865 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:27:34,865 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:27:34,866 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:27:44,092 - root - INFO - Command receied (127.0.0.1): ps aux
+2025-04-29 17:28:24,699 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:28:24,699 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:28:26,658 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:28:26,658 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:28:26,668 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:28:26,668 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:28:27,874 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:28:27,874 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:28:27,879 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:28:27,880 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:28:27,881 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:28:27,881 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:28:27,888 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:28:33,981 - root - INFO - Command receied (127.0.0.1): top
+2025-04-29 17:29:13,769 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:29:13,769 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:29:15,765 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:29:15,765 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:29:15,767 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:29:15,767 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:29:16,887 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:29:16,887 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:29:16,898 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:29:16,898 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:29:16,898 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:29:16,901 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:29:16,901 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:29:24,574 - root - INFO - Command receied (127.0.0.1): history
+2025-04-29 17:29:47,977 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:29:47,979 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:29:50,037 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:29:50,037 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:29:50,048 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:29:50,048 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:29:51,077 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:29:51,077 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:29:51,077 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:29:51,077 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:29:51,077 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:29:51,077 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:29:51,077 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:30:02,327 - root - INFO - Command receied (127.0.0.1): sudo su
+2025-04-29 17:30:59,789 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:30:59,789 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:31:01,408 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:31:01,408 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:31:01,417 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:31:01,417 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:31:02,661 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:31:02,661 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:31:02,668 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:31:02,668 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:31:02,668 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:31:02,668 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:31:02,668 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:31:12,620 - root - INFO - Command receied (127.0.0.1): echo $PATH
+2025-04-29 17:32:46,834 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:32:46,839 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:32:48,899 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:32:48,900 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:32:48,908 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:32:48,909 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:32:49,907 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:32:49,907 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:32:49,907 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:32:49,916 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:32:49,916 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:32:49,916 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:32:49,916 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:33:01,612 - root - INFO - Command receied (127.0.0.1): netstat -tuln
+2025-04-29 17:35:21,973 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:35:21,976 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:35:50,456 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:35:50,456 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:35:50,468 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:35:50,468 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:35:51,787 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:35:51,787 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:35:51,787 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:35:51,787 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:35:51,787 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:35:51,787 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:35:51,787 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:37:07,123 - root - INFO - Command receied (127.0.0.1): df -h
+2025-04-29 17:38:07,396 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:39:54,650 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:39:54,651 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:39:54,661 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:39:54,661 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:39:55,756 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:39:55,756 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:39:55,760 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:39:55,761 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:39:55,761 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:39:55,761 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:39:55,762 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:40:10,070 - root - INFO - Command receied (127.0.0.1): ls -la
+2025-04-29 17:40:57,118 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:41:12,191 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:41:12,191 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:41:12,205 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:41:12,205 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:41:13,243 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:41:13,243 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:41:13,246 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:41:13,247 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:41:13,247 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:41:13,247 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:41:13,247 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:41:27,166 - root - INFO - Command receied (127.0.0.1): touch file.txt
+2025-04-29 17:45:30,009 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:45:30,015 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:45:37,473 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:45:37,474 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:45:37,480 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:45:37,480 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:45:38,397 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:45:38,397 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:45:38,399 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:45:38,399 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:45:38,400 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:45:38,401 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:45:38,401 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:45:46,324 - root - INFO - Command receied (127.0.0.1): mkdir testdir
+2025-04-29 17:46:11,869 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:46:11,874 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:46:14,608 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:46:14,609 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:46:14,614 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:46:14,614 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:46:15,350 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:46:15,351 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:46:15,355 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:46:15,356 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:46:15,356 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:46:15,357 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:46:15,357 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:46:32,930 - root - INFO - Command receied (127.0.0.1): cd testdir
+2025-04-29 17:48:51,932 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:49:10,725 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:49:10,726 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:49:10,731 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:49:10,731 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:49:11,331 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:49:11,331 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:49:11,335 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:49:11,337 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:49:11,337 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:49:11,338 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:49:11,338 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:49:19,823 - root - INFO - Command receied (127.0.0.1): rmdir testdir
+2025-04-29 17:51:10,743 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:51:10,747 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:51:13,238 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:51:13,239 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:51:13,248 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:51:13,248 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:51:14,168 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:51:14,169 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:51:14,174 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:51:14,175 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:51:14,176 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:51:14,176 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:51:14,176 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:55:54,128 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:56:09,161 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:56:09,165 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:56:09,183 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:56:09,183 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:56:09,680 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:56:09,680 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:56:09,683 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:56:09,684 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:56:09,684 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:56:09,684 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:56:09,684 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:57:21,023 - root - INFO - Command receied (127.0.0.1): chmod +x script.sh
+2025-04-29 17:58:12,477 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 17:58:12,481 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 17:58:14,403 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 17:58:14,405 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 17:58:14,409 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 17:58:14,409 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 17:58:15,563 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 17:58:15,564 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 17:58:15,567 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 17:58:15,568 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 17:58:15,568 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 17:58:15,568 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 17:58:15,569 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 17:59:02,706 - root - INFO - Command receied (127.0.0.1): ping 8.8.8.8 -c 4
+2025-04-29 18:01:21,056 - root - INFO - Command receied (127.0.0.1): exit
+2025-04-29 18:01:21,065 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-04-29 18:01:23,239 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-04-29 18:01:23,240 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-04-29 18:01:23,245 - paramiko.transport - INFO - Auth rejected (none).
+2025-04-29 18:01:23,245 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-04-29 18:01:24,160 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-04-29 18:01:24,160 - paramiko.transport - INFO - Auth granted (password).
+2025-04-29 18:01:24,160 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-04-29 18:01:24,160 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-04-29 18:01:24,160 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-04-29 18:01:24,170 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-04-29 18:01:24,170 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-04-29 18:01:31,496 - root - INFO - Command receied (127.0.0.1): curl https://www.geeksforgeeks.org
+2025-05-06 09:45:14,683 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 09:45:14,686 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 09:45:14,718 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 09:45:14,718 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 09:45:42,504 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 09:45:42,504 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 09:45:42,527 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 09:45:42,527 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 09:45:43,076 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 09:45:43,076 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 09:45:43,082 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 09:45:43,082 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 09:45:43,082 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 09:45:43,082 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 09:45:43,082 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 09:47:42,224 - root - INFO - Command receied (127.0.0.1): Wget https://www.geeksforgeeks.org
+2025-05-06 09:48:20,289 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 09:48:20,289 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 09:48:22,569 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 09:48:22,577 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 09:48:22,577 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 09:48:22,577 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 09:48:23,435 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 09:48:23,435 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 09:48:23,436 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 09:48:23,436 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 09:48:23,436 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 09:48:23,436 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 09:48:23,436 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 09:48:48,844 - root - INFO - Command receied (127.0.0.1): grep "root"/etc/passwd
+2025-05-06 09:49:24,626 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 09:49:24,626 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 09:50:42,361 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 09:50:42,363 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 09:50:42,363 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 09:50:42,363 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 09:50:43,191 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 09:50:43,191 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 09:50:43,191 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 09:50:43,191 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 09:50:43,191 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 09:50:43,191 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 09:50:43,191 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 09:50:48,898 - root - INFO - Command receied (127.0.0.1): Find / -name ”*.config”
+2025-05-06 09:51:11,876 - root - INFO - Command receied (127.0.0.1): Find / -name ”*.config”
+2025-05-06 09:51:14,820 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 09:51:14,820 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 09:51:52,240 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 09:51:52,240 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 09:51:52,252 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 09:51:52,252 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 09:51:53,013 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 09:51:53,013 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 09:51:53,013 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 09:51:53,013 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 09:51:53,013 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 09:51:53,013 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 09:51:53,013 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 09:51:58,635 - root - INFO - Command receied (127.0.0.1): Du –sh /home
+2025-05-06 09:52:44,370 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 09:52:44,370 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 09:56:20,100 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 09:56:20,102 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 09:56:20,105 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 09:56:20,105 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 09:56:20,868 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 09:56:20,868 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 09:56:20,868 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 09:56:20,868 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 09:56:20,868 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 09:56:20,868 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 09:56:20,868 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 09:56:28,587 - root - INFO - Command receied (127.0.0.1): alias ll='ls -la'
+2025-05-06 09:56:42,842 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 09:56:42,844 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 09:56:43,891 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 09:56:43,893 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 09:56:43,900 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 09:56:43,900 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 09:56:49,370 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 09:56:49,378 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 09:56:49,380 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 09:56:49,380 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 09:56:49,380 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 09:56:49,380 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 09:56:49,380 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 09:56:57,532 - root - INFO - Command receied (127.0.0.1): env
+2025-05-06 09:57:09,150 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 09:57:09,150 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 09:57:09,163 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 09:57:09,163 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 09:57:09,934 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 09:57:09,934 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 09:57:09,934 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 09:57:09,934 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 09:57:09,934 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 09:57:09,934 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 09:57:09,934 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 09:57:13,573 - root - INFO - Command receied (127.0.0.1): env
+2025-05-06 10:05:51,269 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:05:51,269 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:05:51,269 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:05:51,269 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:05:52,274 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:05:52,274 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:05:52,290 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:05:52,290 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:05:52,290 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:05:52,290 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:05:52,290 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:06:11,765 - root - INFO - Command receied (127.0.0.1): env
+2025-05-06 10:06:39,547 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:06:39,553 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:06:41,162 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:06:41,162 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:06:41,162 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:06:41,162 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:06:42,183 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:06:42,183 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:06:42,183 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:06:42,183 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:06:42,183 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:06:42,183 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:06:42,183 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:06:49,078 - root - INFO - Command receied (127.0.0.1): export VAR=test
+2025-05-06 10:07:11,409 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:07:11,412 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:13:23,130 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:13:23,146 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:13:23,146 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:13:23,146 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:13:23,782 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:13:23,782 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:13:23,782 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:13:23,790 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:13:23,790 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:13:23,790 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:13:23,790 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:13:31,073 - root - INFO - Command receied (127.0.0.1): kill 1234
+2025-05-06 10:13:50,795 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:13:50,795 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:13:51,839 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:13:51,855 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:13:51,855 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:13:51,855 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:13:52,788 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:13:52,788 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:13:52,788 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:13:52,788 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:13:52,788 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:13:52,788 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:13:52,788 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:13:58,345 - root - INFO - Command receied (127.0.0.1): chmod 755 script.sh
+2025-05-06 10:14:59,722 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:14:59,722 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:14:59,725 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:14:59,725 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:15:00,449 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:15:00,449 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:15:00,449 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:15:00,457 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:15:00,457 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:15:00,457 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:15:00,457 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:15:08,910 - root - INFO - Command receied (127.0.0.1): chmod 755 script.sh
+2025-05-06 10:15:49,831 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:15:49,831 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:15:51,485 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:15:51,485 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:15:51,495 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:15:51,495 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:15:52,265 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:15:52,265 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:15:52,265 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:15:52,265 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:15:52,265 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:15:52,265 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:15:52,265 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:16:05,257 - root - INFO - Command receied (127.0.0.1): ifconfig
+2025-05-06 10:17:43,128 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:17:43,128 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:17:44,742 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:17:44,742 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:17:44,756 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:17:44,756 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:17:45,878 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:17:45,878 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:17:45,878 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:17:45,894 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:17:45,894 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:17:45,894 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:17:45,894 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:18:05,946 - root - INFO - Command receied (127.0.0.1): netstat -tulnp
+2025-05-06 10:18:35,083 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:18:35,083 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:18:41,300 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:18:41,301 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:18:41,304 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:18:41,304 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:18:41,855 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:18:41,855 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:18:41,855 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:18:41,855 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:18:41,855 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:18:41,855 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:18:41,855 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:18:47,246 - root - INFO - Command receied (127.0.0.1): apt update
+2025-05-06 10:19:23,279 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:19:23,279 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:19:24,444 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:19:24,444 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:19:24,459 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:19:24,459 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:19:40,401 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:19:40,401 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:19:40,401 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:19:40,401 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:19:41,430 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:19:41,430 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:19:41,430 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:19:41,430 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:19:41,430 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:19:41,430 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:19:41,430 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:19:48,591 - root - INFO - Command receied (127.0.0.1): apt install nano
+2025-05-06 10:20:25,145 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:20:25,149 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:20:26,686 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:20:26,686 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:20:26,686 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:20:26,686 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:20:27,610 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:20:27,610 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:20:27,610 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:20:27,610 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:20:27,610 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:20:27,610 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:20:27,610 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:20:35,793 - root - INFO - Command receied (127.0.0.1): nano file.txt
+2025-05-06 10:20:58,758 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:20:58,758 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:21:19,197 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:21:19,205 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:21:19,208 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:21:19,208 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:21:20,262 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:21:20,262 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:21:20,262 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:21:20,262 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:21:20,262 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:21:20,262 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:21:20,262 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:21:30,860 - root - INFO - Command receied (127.0.0.1): find / -name file.txt
+2025-05-06 10:21:45,102 - root - INFO - Command receied (127.0.0.1): find / -name file.txt
+2025-05-06 10:22:08,945 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:22:08,945 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:22:10,497 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:22:10,498 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:22:10,500 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:22:10,500 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:22:11,205 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:22:11,205 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:22:11,213 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:22:11,213 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:22:11,213 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:22:11,213 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:22:11,213 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:22:19,345 - root - INFO - Command receied (127.0.0.1): history
+2025-05-06 10:23:03,554 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:23:03,554 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:23:03,554 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:23:03,554 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:23:04,411 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:23:04,411 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:23:04,411 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:23:04,411 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:23:04,411 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:23:04,411 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:23:04,411 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:23:24,167 - root - INFO - Command receied (127.0.0.1): history
+2025-05-06 10:24:11,869 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:24:11,869 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:24:12,934 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:24:12,934 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:24:12,934 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:24:12,934 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:24:13,497 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:24:13,497 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:24:13,503 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:24:13,503 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:24:13,503 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:24:13,503 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:24:13,503 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:24:18,384 - root - INFO - Command receied (127.0.0.1): clear
+2025-05-06 10:24:43,379 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:24:43,379 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:24:45,787 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:24:45,787 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:24:45,787 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:24:45,787 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:24:46,333 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:24:46,333 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:24:46,336 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:24:46,340 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:24:46,340 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:24:46,340 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:24:46,340 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:24:52,767 - root - INFO - Command receied (127.0.0.1): uname -a
+2025-05-06 10:25:17,331 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:25:17,331 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:25:18,975 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:25:18,975 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:25:18,984 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:25:18,984 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:25:20,597 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:25:20,597 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:25:20,610 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:25:20,610 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:25:20,610 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:25:20,610 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:25:20,610 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:25:28,636 - root - INFO - Command receied (127.0.0.1): uptime
+2025-05-06 10:25:55,229 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:25:55,229 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:26:01,374 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:26:01,374 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:26:01,380 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:26:01,380 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:26:02,016 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:26:02,016 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:26:02,016 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:26:02,016 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:26:02,016 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:26:02,016 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:26:02,016 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:26:07,391 - root - INFO - Command receied (127.0.0.1): reboot
+2025-05-06 10:26:39,178 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:26:39,179 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:26:40,378 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:26:40,380 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:26:40,382 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:26:40,382 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:26:41,021 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:26:41,021 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:26:41,033 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:26:41,033 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:26:41,033 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:26:41,033 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:26:41,033 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:26:56,462 - root - INFO - Command receied (127.0.0.1): shutdown
+2025-05-06 10:27:10,179 - root - INFO - Command receied (127.0.0.1): exit
+2025-05-06 10:27:10,179 - paramiko.transport - INFO - Disconnect (code 11): disconnected by user
+2025-05-06 10:27:11,514 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:27:11,514 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:27:11,523 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:27:11,523 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:27:11,881 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:27:11,881 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:27:11,881 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:27:11,881 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:27:11,881 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:27:11,881 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:27:11,881 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:27:19,682 - root - INFO - Command receied (127.0.0.1): shutdown now
+2025-05-06 10:28:09,876 - honeypotLogger - INFO - New connection from: 127.0.0.1
+2025-05-06 10:28:09,879 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-05-06 10:28:09,879 - paramiko.transport - INFO - Auth rejected (none).
+2025-05-06 10:28:09,879 - honeypotLogger - INFO - client called get_allowed_auths (127.0.0.1) with username root
+2025-05-06 10:28:10,565 - honeypotLogger - INFO - new client credentials (127.0.0.1): username: root, password: 
+2025-05-06 10:28:10,565 - paramiko.transport - INFO - Auth granted (password).
+2025-05-06 10:28:10,565 - honeypotLogger - INFO - client called check_channel_request (127.0.0.1): session
+2025-05-06 10:28:10,565 - honeypotLogger - INFO - Client mac (127.0.0.1): hmac-sha2-256-etm@openssh.com
+2025-05-06 10:28:10,565 - honeypotLogger - INFO - Client compression (127.0.0.1): none
+2025-05-06 10:28:10,565 - honeypotLogger - INFO - Client SSH version (127.0.0.1): SSH-2.0-OpenSSH_for_Windows_9.5
+2025-05-06 10:28:10,565 - honeypotLogger - INFO - Client SSH cipher (127.0.0.1): aes128-ctr
+2025-05-06 10:28:30,020 - root - INFO - Command receied (127.0.0.1): shutdown now
+2025-05-06 10:28:39,539 - root - INFO - Command receied (127.0.0.1): shutdownnow
