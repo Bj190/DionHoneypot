@@ -66,7 +66,7 @@ honeypot_logger = logging.getLogger('honeypotLogger')
 
 # Configure Google Generative AI API
 #Gemini
-key = "AIzaSyDQKqrfjcn9OCmh8tRV0Wx1z49WtXutoTI"
+key = "KEY"
 model = genai.GenerativeModel('gemini-1.5-pro-latest')
 genai.configure(api_key=key)
 
